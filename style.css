@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    max-width: 1320px;
+    margin: 30px auto;
+}
+
+/* global design  */
+.sub-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.offer-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+/* global design  */
+
+/* hero section design  */
+.hero {
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.hero .title {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+/* hero section design close */
+
+/* offer section design close  */
+.offer {
+    text-align: center;
+    width: 800px;
+    margin: 70px auto;
+}
+
+.offer .offer-price {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offer h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.offer img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* offer section design end  */
+/* welcome section style */
+.welcome {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    padding: 70px 0;
+    margin: 100px 0;
+}
+
+.welcome .welcome-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.welcome .welcome-container h2 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+
+.welcome .welcome-container P {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.welcome .welcome-container a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.welcome .image img {
+    width: 100%;
+}
+
+/* welcome section finished */
+
+/* details section style  */
+.details {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    padding: 100px 385px 110px 385px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* details section style  */
+/* coming soon style  */
+.conning-soon {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+.conning-soon .contnet {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.conning-soon .contnet h5 {
+    text-align: left;
+}
+
+.conning-soon .contnet h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.conning-soon .contnet p,
+.conning-soon .year p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.conning-soon .image {
+    width: 463px;
+    height: 463px;
+    border: 15px solid red;
+    border-radius: 50%;
+    display: flex;
+    padding: 30px;
+}
+
+.conning-soon .image img {
+    width: 100%;
+    margin: auto;
+}
+
+.conning-soon .year {
+    width: 30%;
+    margin-top: 70px;
+    padding-left: 50px;
+}
+
+.conning-soon .year h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* coming-soon section end  */
+
+/* holyday section style  */
+.holiday {
+    width: 1320px;
+    height: 986.07px;
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.holiday .content {
+    text-align: center;
+    width: 1060px;
+    margin: auto;
+}
+
+.holiday .content h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.holiday .content h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holiday .content h1 span {
+    color: rgb(255, 0, 0);
+}
+
+.holiday .content P {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* discount section style  */
+.discount-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount-image .left-image {
+    margin-top: 116px;
+}
+
+.discount-image .right-image {
+    margin: 190px 100px 0px 0px;
+}
+
+.discount-image .right-image img {
+    width: 100%;
+}
+
+/* discount section end  */
+.portfolio {
+    margin: 100px auto;
+}
+
+.portfolio .contet {
+    margin: 50px 0px 40px 10px;
+}
+
+.portfolio .contet h4 {
+    text-align: left;
+}
+
+.portfolio .contet h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.portfolio .contet p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.portfolio .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+/* portfolio section style */
+
+/* newsletter section style  */
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.05);
+    gap: 10px;
+    padding: 100px 0;
+}
+
+.newsletter h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.newsletter p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.newsletter .input input {
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50px;
+
+}
+
+.newsletter .input .email {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0%;
+    border: none;
+}
+
+.newsletter .input .submit {
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* footer section design  */
+footer {
+    background-color: rgb(7, 2, 17);
+    ;
+    padding: 10px 0px 50px 0px;
+}
+footer .contact{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding: 100px;
+}
+
+footer .contact h5 , .copyright-section h5, a{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    width: 1185px;
+    margin: auto;
+}
+footer .social-icon{
+    text-align: center;
+}
+footer .social-icon img{
+    margin: 20px 10px;
+}
+footer .copyright-section{ 
+    width: 1185px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* design finished */
