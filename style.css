@@ -185,9 +185,11 @@ main{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 }
 
 /* details section style  */
+
 /* coming soon style  */
 .conning-soon {
     display: flex;
